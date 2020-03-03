@@ -76,5 +76,11 @@ public class App {
             x += i;
         }
     }
+    private void computeLong2(){
+        long x = 0;
+        for (int i =0; i< 1 << 19; ++i){
+            x += i;
+        }
+    }
 }
 
